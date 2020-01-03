@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ChatoLink</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="names">
+        <item>Select...</item>
+        <item>Travel</item>
+        <item>Hotels</item>
+        <item>Hospitals</item>
+        <item>Journals</item>
+        <item>Shopping</item>
+        <item>Programming Sites</item>
+        <item>Tech NEWS</item>
+        <item>Online Courses</item>
+        <item>Banking</item>
+    </string-array>
+
+    <string name="text"><u>Select Your Option Below:</u></string>
+
+    </resources>
