@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbd1f7"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.23"></LinearLayout>
+    <TextView
+        android:id = "@+id/text1"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text = "    WELCOME!!! Select and Get your link!!!"
+        android:enabled="true"
+        android:nestedScrollingEnabled="true"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#800e0e"
+        android:visibility="visible"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.06"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text"
+        android:id="@+id/textView3"
+        android:layout_weight="0.06"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#b11554"
+        android:textStyle="bold|italic"
+        android:textSize="21dp" />
+
+    <Spinner
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:layout_gravity="center"
+        android:layout_weight="0.04" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"></LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button4"
+        android:background="@drawable/shape"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
